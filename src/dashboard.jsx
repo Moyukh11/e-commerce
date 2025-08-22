@@ -1,42 +1,33 @@
-import { AppSidebar } from "@/components/app-sidebar"
-import { ChartAreaInteractive } from "@/components/chart-area-interactive"
-import { DataTable } from "@/components/data-table"
-import { SectionCards } from "@/components/section-cards"
-import { SiteHeader } from "@/components/site-header"
-import {
-  SidebarInset,
-  SidebarProvider,
-} from "@/components/sidebar"
+import React from "react";
+import data from "./data.json";
 
-import data from "./data.json"
-
-export default function Dashboard() {
+const Card = () => {
   return (
-    <div id="page">
-    <SidebarProvider
-      style={
-        {
-          "--sidebar-width": "calc(var(--spacing) * 72)",
-          "--header-height": "calc(var(--spacing) * 12)",
-        } 
-      }
-    >
-      <AppSidebar variant="inset" />
-      <SidebarInset>
-        <SiteHeader />
-        <div className="flex flex-1 flex-col">
-          <div className="@container/main flex flex-1 flex-col gap-2">
-            <div className="flex flex-col gap-4 py-4 md:gap-6 md:py-6">
-              <SectionCards />
-              <div className="px-4 lg:px-6">
-                <ChartAreaInteractive />
-              </div>
-              <DataTable data={data} />
-            </div>
-          </div>
+    <div className="container mx-auto">
+      <h1 className="text-3xl font-bold text-center my-8">Welcome to our Dashboard</h1>
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-6">
+      {data.map((item) => (
+        <div
+          key={item.id}
+          className="bg-white shadow-md rounded-2xl p-4 flex flex-col items-center hover:shadow-lg transition"
+        >
+          <img
+            src={item.image}
+            alt={item.name}
+            className="w-32 h-32 object-cover rounded-lg"
+          />
+          <h2 className="mt-3 text-lg font-semibold">{item.name}</h2>
+          <p className="text-gray-600">₹{item.price}</p>
+          <p className="text-yellow-500">⭐ {item.rating}</p>
+          <span className="text-sm text-gray-500">{item.category}</span>
+          <button className="mt-3 bg-blue-500 text-white px-4 py-2 rounded-xl hover:bg-blue-600">
+            Add to Cart
+          </button>
         </div>
-      </SidebarInset>
-    </SidebarProvider>
+      ))}
     </div>
-  )
-}
+    </div>
+  );
+};
+
+export default Card;

@@ -1,0 +1,22 @@
+[
+  { "id": 1, "title": "Smartphone", "description": "Latest 5G smartphone with advanced features", "price": "$699", "image": "https://via.placeholder.com/100" },
+  { "id": 2, "title": "Laptop", "description": "High-performance laptop for work and gaming", "price": "$1099", "image": "https://via.placeholder.com/100" },
+  { "id": 3, "title": "Wireless Earbuds", "description": "Noise-cancelling wireless earbuds", "price": "$199", "image": "https://via.placeholder.com/100" },
+  { "id": 4, "title": "Smartwatch", "description": "Fitness tracking smartwatch with GPS", "price": "$249", "image": "https://via.placeholder.com/100" },
+  { "id": 5, "title": "Bluetooth Speaker", "description": "Portable waterproof Bluetooth speaker", "price": "$149", "image": "https://via.placeholder.com/100" },
+  { "id": 6, "title": "Gaming Console", "description": "Next-gen gaming console with 4K support", "price": "$499", "image": "https://via.placeholder.com/100" },
+  { "id": 7, "title": "Mechanical Keyboard", "description": "RGB backlit mechanical keyboard", "price": "$89", "image": "https://via.placeholder.com/100" },
+  { "id": 8, "title": "Drone", "description": "Camera drone with 4K recording", "price": "$899", "image": "https://via.placeholder.com/100" },
+  { "id": 9, "title": "Smart TV", "description": "55-inch 4K UHD Smart TV", "price": "$799", "image": "https://via.placeholder.com/100" },
+  { "id": 10, "title": "Tablet", "description": "Lightweight tablet for work & play", "price": "$399", "image": "https://via.placeholder.com/100" },
+  { "id": 11, "title": "Power Bank", "description": "10000mAh fast charging power bank", "price": "$39", "image": "https://via.placeholder.com/100" },
+  { "id": 12, "title": "Camera", "description": "DSLR camera with 24MP sensor", "price": "$999", "image": "https://via.placeholder.com/100" },
+  { "id": 13, "title": "Headphones", "description": "Over-ear noise-cancelling headphones", "price": "$299", "image": "https://via.placeholder.com/100" },
+  { "id": 14, "title": "Smart Home Hub", "description": "Control all your smart devices", "price": "$129", "image": "https://via.placeholder.com/100" },
+  { "id": 15, "title": "E-Reader", "description": "E-ink display reader with backlight", "price": "$179", "image": "https://via.placeholder.com/100" },
+  { "id": 16, "title": "Microwave Oven", "description": "Compact smart microwave oven", "price": "$249", "image": "https://via.placeholder.com/100" },
+  { "id": 17, "title": "Coffee Maker", "description": "Automatic coffee brewing machine", "price": "$129", "image": "https://via.placeholder.com/100" },
+  { "id": 18, "title": "Vacuum Cleaner", "description": "Smart robot vacuum cleaner", "price": "$349", "image": "https://via.placeholder.com/100" },
+  { "id": 19, "title": "Monitor", "description": "27-inch 144Hz gaming monitor", "price": "$399", "image": "https://via.placeholder.com/100" },
+  { "id": 20, "title": "Printer", "description": "All-in-one wireless printer", "price": "$199", "image": "https://via.placeholder.com/100" }
+]

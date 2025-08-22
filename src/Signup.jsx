@@ -11,22 +11,19 @@ import {
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 
-export function Login() {
+export function Signup() {
   return (
     <div id="root ">
       <div class="place-items-center mb-5">
-        <h1>Login to get started!</h1>
+        <h1>Create Your Account</h1>
       </div>
     <div class="place-items-center">
     <Card className="w-full max-w-sm">
       <CardHeader>
-        <CardTitle>Login to your account</CardTitle>
+        <CardTitle>Create your account</CardTitle>
         <CardDescription>
-          Enter your email below to login to your account
+          Enter your email below to create your account
         </CardDescription>
-        <CardAction>
-          <Button variant="link">Sign Up</Button>
-        </CardAction>
       </CardHeader>
       <CardContent>
         <form>
@@ -57,10 +54,7 @@ export function Login() {
       </CardContent>
       <CardFooter className="flex-col gap-2">
         <Button type="submit" className="w-full text-white">
-          Login
-        </Button>
-        <Button variant="outline" className="w-full">
-          Login with Google
+          Sign Up
         </Button>
       </CardFooter>
     </Card>
@@ -69,4 +63,4 @@ export function Login() {
   )
 }
 
-export default Login
+export default Signup
